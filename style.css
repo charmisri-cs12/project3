@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1{
+  background-image: url(images/103_365Nights2021_174828M6.jpg);
+  min-height: 100%;
+}
+.pimg2{
+  background-image: url(images/WhatsApp\ Image\ 2025-03-22\ at\ 15.33.50_50092d44.jpg);
+  min-height: 400px;
+}
+.pimg3{
+  background-image: url(images/images.jpeg);
+  min-height: 400px;
+}
+.pimg1, .pimg2, .pimg3{
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textbg{
+  background: #313534;
+  color:#fff;
+  padding: 20px;
+}
+.section1 h2{
+  padding: 50px 80px;
+  text-align: center;
+}
+.section1 p{
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section2{
+ background-color: #282e34;
+ color: #ddd;
+}
